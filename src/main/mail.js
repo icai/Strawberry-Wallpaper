@@ -15,7 +15,6 @@ const { feedbackAPI } = userConfig
 // eslint-disable-next-line import/prefer-default-export
 export function newEmail(data, telUser, appInfo){
     return new Promise((resolve, reject) => {
-
         // 设置发件内容
         const mailOptions = {
             // from: 'strawberrypaper@163.com', // 发件人地址
